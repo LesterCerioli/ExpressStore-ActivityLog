@@ -1,4 +1,5 @@
-﻿using ExpressStore.Infrastructure.Modules;
+﻿using ExpressStore.Infrastructure.Localization;
+using ExpressStore.Infrastructure.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
