@@ -8,7 +8,7 @@ namespace ExpressStore.Infrastructure.Models
     {
         public virtual bool IsValid()
         {
-            return ValidatableObject().Count ==0;
+            return Validate().Count == 0;
         }
 
         public virtual IList<ValidationResult> Validate()
