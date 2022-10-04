@@ -7,25 +7,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{816E30
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{5DFFC0CF-22A7-4112-80B9-1B095D8F9636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Modules.ActivityLog", "source\Microservices\ExpressStore.Modules.ActivityLog\ExpressStore.Modules.ActivityLog.csproj", "{2F1866A6-E184-4546-AE48-F205986AF020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Modules.ActivityLog", "source\Microservices\ExpressStore.Modules.ActivityLog\ExpressStore.Modules.ActivityLog.csproj", "{2F1866A6-E184-4546-AE48-F205986AF020}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03C24110-3C1F-4317-899B-765F8F60DBBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Modules.ActivityLog.Tests", "test\ExpressStore.Modules.ActivityLog.Tests\ExpressStore.Modules.ActivityLog.Tests.csproj", "{B8243881-34CF-4C27-9FEE-5203EBA7F8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Modules.ActivityLog.Tests", "test\ExpressStore.Modules.ActivityLog.Tests\ExpressStore.Modules.ActivityLog.Tests.csproj", "{B8243881-34CF-4C27-9FEE-5203EBA7F8C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{54B70AFC-17C9-435E-95A9-17DF80144C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Infrastructure", "source\Infrastructure\ExpressStore.Infrastructure\ExpressStore.Infrastructure.csproj", "{657EE299-234C-47BB-B699-C68F6EECFD20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Infrastructure", "source\Infrastructure\ExpressStore.Infrastructure\ExpressStore.Infrastructure.csproj", "{657EE299-234C-47BB-B699-C68F6EECFD20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Infrastructure.Tests", "test\ExpressStore.Infrastructure.Tests\ExpressStore.Infrastructure.Tests.csproj", "{FF52FC73-3748-44F0-B07F-F86124454206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Infrastructure.Tests", "test\ExpressStore.Infrastructure.Tests\ExpressStore.Infrastructure.Tests.csproj", "{FF52FC73-3748-44F0-B07F-F86124454206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F1866A6-E184-4546-AE48-F205986AF020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -45,6 +42,9 @@ Global
 		{FF52FC73-3748-44F0-B07F-F86124454206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF52FC73-3748-44F0-B07F-F86124454206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5DFFC0CF-22A7-4112-80B9-1B095D8F9636} = {816E303F-3741-4FFE-94AE-7A098882D6FE}
 		{2F1866A6-E184-4546-AE48-F205986AF020} = {5DFFC0CF-22A7-4112-80B9-1B095D8F9636}
@@ -52,5 +52,8 @@ Global
 		{54B70AFC-17C9-435E-95A9-17DF80144C81} = {816E303F-3741-4FFE-94AE-7A098882D6FE}
 		{657EE299-234C-47BB-B699-C68F6EECFD20} = {54B70AFC-17C9-435E-95A9-17DF80144C81}
 		{FF52FC73-3748-44F0-B07F-F86124454206} = {03C24110-3C1F-4317-899B-765F8F60DBBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C7BD393-AA08-4FA4-ADC0-9883F17DF2FD}
 	EndGlobalSection
 EndGlobal
