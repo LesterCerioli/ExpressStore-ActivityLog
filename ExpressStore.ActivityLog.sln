@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{816E303F-3741-4FFE-94AE-7A098882D6FE}"
 EndProject
@@ -11,13 +11,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03C24110-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{54B70AFC-17C9-435E-95A9-17DF80144C81}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Infrastructure", "source\Infrastructure\ExpressStore.Infrastructure\ExpressStore.Infrastructure.csproj", "{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Modules.ActivityLog", "source\Microservices\ExpressStore.Modules.ActivityLog\ExpressStore.Modules.ActivityLog.csproj", "{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Infrastructure.Tests", "test\ExpressStore.Infrastructure.Tests\ExpressStore.Infrastructure.Tests.csproj", "{A4EA788C-846C-4872-BB64-B6DD79539775}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressStore.Modules.ActivityLog.Tests", "test\ExpressStore.Modules.ActivityLog.Tests\ExpressStore.Modules.ActivityLog.Tests.csproj", "{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EA788C-846C-4872-BB64-B6DD79539775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EA788C-846C-4872-BB64-B6DD79539775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EA788C-846C-4872-BB64-B6DD79539775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EA788C-846C-4872-BB64-B6DD79539775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5DFFC0CF-22A7-4112-80B9-1B095D8F9636} = {816E303F-3741-4FFE-94AE-7A098882D6FE}
 		{54B70AFC-17C9-435E-95A9-17DF80144C81} = {816E303F-3741-4FFE-94AE-7A098882D6FE}
+		{27BE16C1-7D4E-40B9-86A1-DA9F962D2A60} = {54B70AFC-17C9-435E-95A9-17DF80144C81}
+		{8BDD37FE-5BCE-4252-844D-DB8D834A0C0B} = {5DFFC0CF-22A7-4112-80B9-1B095D8F9636}
+		{A4EA788C-846C-4872-BB64-B6DD79539775} = {03C24110-3C1F-4317-899B-765F8F60DBBB}
+		{C09EF058-C536-4DC6-8FDB-445FB7AAD8D7} = {03C24110-3C1F-4317-899B-765F8F60DBBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB07C9F8-CA13-4400-8761-5BB088CBD4BB}
