@@ -20,6 +20,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-rc.1.22426.10" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0-rc.1.22426.10" />
     <PackageReference Include="Microsoft.Extensions.WebEncoders" Version="7.0.0-rc.1.22427.2" />
+    <PackageReference Include="NCrontab.Signed" Version="3.3.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
     <PackageReference Include="System.IO" Version="4.3.0" />
   </ItemGroup>
